@@ -1,0 +1,9 @@
+estudiante_id,asistencia_pct,promedio_notas,tareas_entregadas,reportes_conducta,riesgo_desercion
+1,95,16,10,0,Bajo
+2,60,10,4,2,Alto
+3,85,13,8,1,Medio
+4,98,18,10,0,Bajo
+5,45,08,2,3,Alto
+6,75,11,6,1,Medio
+7,90,15,9,0,Bajo
+8,50,09,3,2,Alto

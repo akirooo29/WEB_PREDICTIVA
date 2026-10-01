@@ -1,0 +1,59 @@
+# ==========================================
+# 1. FRONTEND / REACT / VITE / NODE
+# ==========================================
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# ==========================================
+# 2. BACKEND / .NET CORE / C#
+# ==========================================
+bin/
+**/bin/
+obj/
+**/obj/
+.vs/
+**/.vs/
+appsettings.Development.json
+**/appsettings.Development.json
+*.user
+*.suo
+*.userprefs
+[Dd]ebug/
+[Rr]elease/
+
+# ==========================================
+# 3. MOTOR PREDICTIVO / PYTHON / IA
+# ==========================================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+**/venv/
+env/
+**/env/
+.venv/
+**/.venv/
+ENV/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# 4. ARCHIVOS DEL SISTEMA OPERATIVO Y BASE LOCAL
+# ==========================================
+.DS_Store
+Thumbs.db
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
