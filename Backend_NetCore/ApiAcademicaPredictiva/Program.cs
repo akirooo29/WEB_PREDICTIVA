@@ -13,7 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 // =========================================================================
 // 1. CONTROLADORES Y CONFIGURACIÓN BASE
 // =========================================================================
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(opciones =>
+{
+    opciones.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+});
 builder.Services.AddEndpointsApiExplorer();
 
 // =========================================================================
